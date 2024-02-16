@@ -1,0 +1,6 @@
+[
+  { "href": "/", "label": { "de": "Home", "en": "Home" } },
+  { "href": "/materials", "label": { "de": "Werkstoffe", "en": "Materials" } },
+  { "href": "/company", "label": { "de": "Unternehmen", "en": "Company" } },
+  { "href": "/about", "label": { "de": "Über uns", "en": "About us" } }  
+]

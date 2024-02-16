@@ -1,0 +1,24 @@
+header {
+  @apply bg-secondary text-white mx-auto flex w-full bg-opacity-50 border-t-8 border-primary;
+  position: fixed;
+  left: 0;
+
+  .container {
+    @apply flex justify-between items-center p-8;
+
+    .logo {
+      @apply items-center;
+      .brand {
+        @apply text-lg font-bold;
+      }
+    }
+    nav {
+      ul {
+        @apply flex justify-center;
+        li {
+          @apply mr-4 hover:text-primary;
+        }
+      }
+    }
+  }
+}
