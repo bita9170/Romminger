@@ -6,11 +6,11 @@ const HomePageEng = ({ params }: any) => {
     <div className="hero">
       <div className="carousel w-screen h-screen">
         <div id="item1" className="carousel-item w-full">
-          <div className="caption">
+          {/* <div className="caption">
             diese website befindet sich im Aufbau. <br />
             hier entsteht für Sie: <br />
             www.rr-sondermetalle.com
-          </div>
+          </div> */}
           <img
             src="https://picsum.photos/seed/picsum/1920/1080"
             className="w-full object-cover"

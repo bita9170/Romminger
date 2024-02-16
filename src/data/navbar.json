@@ -1,6 +1,93 @@
 [
-  { "href": "/", "label": { "de": "Home", "en": "Home" } },
-  { "href": "/materials", "label": { "de": "Werkstoffe", "en": "Materials" } },
-  { "href": "/company", "label": { "de": "Unternehmen", "en": "Company" } },
-  { "href": "/about", "label": { "de": "Über uns", "en": "About us" } }  
+  { "href": "/", "label": { "de": "Home", "en": "Home" }, "hasSubmenu": false },
+  {
+    "href": "/materials",
+    "label": { "de": "Werkstoffe", "en": "Materials" },
+    "hasSubmenu": true,
+    "submenu": [
+      {
+        "symbol": "Mo",
+        "atomicNumber": "42",
+        "atomicWeight": "95.950",
+        "href": "/materials/molybdenum",
+        "name": { "en": "Molybdenum", "de": "Molybdän" },
+        "color": "green"
+      },
+      {
+        "symbol": "Ta",
+        "atomicNumber": "73",
+        "atomicWeight": "180.95",
+        "href": "/materials/Ta",
+        "name": { "en": "Tantalum", "de": "Tantal" },
+        "color": "green"
+      },
+      {
+        "symbol": "Titan",
+        "atomicNumber": "22",
+        "atomicWeight": "47.867",
+        "href": "/materials/Titanium",
+        "name": { "en": "Titanium", "de": "Titan" },
+        "color": "red"
+      },
+      {
+        "symbol": "Niobium",
+        "atomicNumber": "41",
+        "atomicWeight": "92.906",
+        "href": "/materials/Niobium",
+        "name": { "en": "Niobium", "de": "Niobium" },
+        "color": "green"
+      },
+      {
+        "symbol": "W",
+        "atomicNumber": "74",
+        "atomicWeight": "183.84",
+        "href": "/materials/Worform",
+        "name": { "en": "Worform", "de": "Worform" },
+        "color": "yellow"
+      }
+    ]
+  },
+
+  {
+    "href": "/company",
+    "label": { "de": "Unternehmen", "en": "Company" },
+    "hasSubmenu": true,
+    "submenu": [
+      {
+        "title": "Alert Dialog",
+        "href": "/docs/primitives/alert-dialog",
+        "description": "A modal dialog that interrupts the user with important content and expects a response."
+      },
+      {
+        "title": "Hover Card",
+        "href": "/docs/primitives/hover-card",
+        "description": "For sighted users to preview content available behind a link."
+      },
+      {
+        "title": "Progress",
+        "href": "/docs/primitives/progress",
+        "description": "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar."
+      },
+      {
+        "title": "Scroll-area",
+        "href": "/docs/primitives/scroll-area",
+        "description": "Visually or semantically separates content."
+      },
+      {
+        "title": "Tabs",
+        "href": "/docs/primitives/tabs",
+        "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time."
+      },
+      {
+        "title": "Tooltip",
+        "href": "/docs/primitives/tooltip",
+        "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it."
+      }
+    ]
+  },
+  {
+    "href": "/about",
+    "label": { "de": "Über uns", "en": "About us" },
+    "hasSubmenu": false
+  }
 ]
