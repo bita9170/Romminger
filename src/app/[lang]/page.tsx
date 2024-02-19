@@ -11,10 +11,12 @@ const HomePageEng = ({ params }: any) => {
             hier entsteht für Sie: <br />
             www.rr-sondermetalle.com
           </div> */}
+
           <img
-            src="https://picsum.photos/seed/picsum/1920/1080"
+            src="https://picsum.photos/id/1003/1920/1080"
             className="w-full object-cover"
           />
+        
         </div>
         <div id="item2" className="carousel-item w-full">
           <img
