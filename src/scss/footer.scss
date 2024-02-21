@@ -1,0 +1,14 @@
+footer {
+  @apply text-sm p-10 bg-primary text-neutral-content;
+  aside{
+    @apply flex flex-row justify-between;
+    
+    .footer-title{
+      @apply text-lg text-white font-bold;
+    }
+    p{
+      @apply text-white
+    }
+  }
+  
+}

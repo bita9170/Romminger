@@ -1,0 +1,19 @@
+.hero {
+  @apply flex flex-col text-white py-4;
+  .caption {
+    @apply w-full bg-primary text-white p-12 mb-1;
+  }
+
+  img {
+    @apply w-[350px] h-[250px] object-cover;
+  }
+
+  button {
+    &:nth-child(2) {
+      @apply absolute bottom-10 left-1/2 -translate-x-1/2;
+    }
+    &:nth-child(3) {
+      @apply absolute bottom-16 left-1/2 -translate-x-1/2;
+    }
+  }
+}

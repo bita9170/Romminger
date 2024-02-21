@@ -1,22 +1,58 @@
 header {
-  @apply bg-secondary mx-auto flex w-full bg-opacity-50 border-t-8 border-primary fixed left-0;
+  @apply bg-white mx-auto flex w-full border-t-8 border-primary fixed left-0;
   .container {
     @apply flex justify-between items-center p-8;
 
     .logo {
       @apply items-center;
       .brand {
-        @apply text-lg font-bold;
+        @apply text-2xl font-bold;
       }
     }
 
-    nav {
-      li {
-        button,
-        a {
-          @apply bg-transparent hover:bg-transparent;
+    .main-menu {
+      nav {
+        li {
+          @apply relative;
+          button,
+          a {
+            @apply bg-transparent hover:bg-transparent;
+
+            &.email-link {
+              @apply text-sm;
+            }
+          }
+          &:hover::after {
+            transform: scaleX(1);
+          }
         }
       }
+    }
+  }
+}
+
+.materials {
+  @apply w-14 h-14 flex flex-col justify-between p-2 box-content border shadow-xl border-primary rounded-lg hover:bg-secondary;
+  .atomic-nw {
+    @apply flex justify-between text-xs;
+    font-size: 8px;
+  }
+  .symbol {
+    @apply text-center text-sm font-medium;
+  }
+  .name {
+    @apply text-center text-xs;
+    font-size: 8px;
+  }
+}
+
+.company {
+  @apply flex items-center;
+  .title {
+    @apply font-bold;
+    .description {
+      @apply text-sm font-normal text-neutral;
+      font-size: 10px;
     }
   }
 }

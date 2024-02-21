@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "@/scss/main.scss";
 import Header from "../components/Header";
-
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +17,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        {children}
+        <main className="main-content pt-[108px]">{children}</main>
+        <Footer />
       </body>
     </html>
   );

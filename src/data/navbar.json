@@ -1,9 +1,19 @@
 [
-  { "href": "/", "label": { "de": "Home", "en": "Home" }, "hasSubmenu": false },
+  {
+    "href": "/",
+    "label": { "de": "Home", "en": "Home" },
+    "hasSubmenu": {
+      "status": false,
+      "type": ""
+    }
+  },
   {
     "href": "/materials",
     "label": { "de": "Werkstoffe", "en": "Materials" },
-    "hasSubmenu": true,
+    "hasSubmenu": {
+      "status": true,
+      "type": "materials"
+    },
     "submenu": [
       {
         "symbol": "Mo",
@@ -17,23 +27,23 @@
         "symbol": "Ta",
         "atomicNumber": "73",
         "atomicWeight": "180.95",
-        "href": "/materials/Ta",
+        "href": "/materials/tantalum",
         "name": { "en": "Tantalum", "de": "Tantal" },
         "color": "green"
       },
       {
-        "symbol": "Titan",
+        "symbol": "Ti",
         "atomicNumber": "22",
         "atomicWeight": "47.867",
-        "href": "/materials/Titanium",
+        "href": "/materials/titanium",
         "name": { "en": "Titanium", "de": "Titan" },
         "color": "red"
       },
       {
-        "symbol": "Niobium",
+        "symbol": "Nb",
         "atomicNumber": "41",
         "atomicWeight": "92.906",
-        "href": "/materials/Niobium",
+        "href": "/materials/niobium",
         "name": { "en": "Niobium", "de": "Niobium" },
         "color": "green"
       },
@@ -41,40 +51,47 @@
         "symbol": "W",
         "atomicNumber": "74",
         "atomicWeight": "183.84",
-        "href": "/materials/Worform",
-        "name": { "en": "Worform", "de": "Worform" },
+        "href": "/materials/wofram",
+        "name": { "en": "wofram", "de": "wofram" },
         "color": "yellow"
       }
     ]
   },
 
-
   {
     "href": "/company",
     "label": { "de": "Unternehmen", "en": "Company" },
-    "hasSubmenu": true,
+    "hasSubmenu": {
+      "status": true,
+      "type": "company"
+    },
     "submenu": [
       {
         "title": { "de": "Kontakt", "en": "Contact" },
-        "href": "/docs/primitives/alert-dialog",
-        "description": "A modal dialog that interrupts the user with important content and expects a response."
+        "icon": "<i class='fa-solid fa-phone'></i>",
+        "description": " phone: +49 7051 967 0",
+        "email": "info@rr-sondermetalle.com"
       },
       {
         "title": { "de": "standort", "en": "location" },
-        "href": "/docs/primitives/hover-card",
-        "description": "For sighted users to preview content available behind a link."
+        "icon": "<i class='fa-solid fa-location-dot'></i>",
+        "description": "Gottlob-Bauknecht-Straße.26 75365 Calw Deutschland"
+        
       },
       {
         "title": { "de": "Erfahrung", "en": "Experience" },
-        "href": "/docs/primitives/progress",
+        "icon": "<i class='fa-solid fa-building'></i>",
         "description": "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar."
       }
     ]
   },
-  
+
   {
     "href": "/about",
     "label": { "de": "Über uns", "en": "About us" },
-    "hasSubmenu": false
+    "hasSubmenu": {
+      "status": false,
+      "type": ""
+    }
   }
 ]

@@ -11,8 +11,8 @@ const ChemistryItem = ({ material, lang }: { material: any; lang: any }) => {
         </div>
         <div className="symbol">{material.symbol}</div>
         <div className="name">
-        {material.name && (lang === "de" ? material.name.de : material.name.en)}
-
+          {material.name &&
+            (lang === "de" ? material.name.de : material.name.en)}
         </div>
       </div>
     </Link>
