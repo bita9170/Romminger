@@ -1,0 +1,13 @@
+{
+  "home": {
+    "hero-title": "Diese Website befindet sich im Aufbau",
+    "hero-button-text": "Über uns",
+    "hero-material": "Werkstoffe"
+  },
+  "navigation" : {
+    "home": "Home",
+    "materials": "Werkstoffe",
+    "company": "Unternehmen",
+    "about": "Über uns"
+  }
+}

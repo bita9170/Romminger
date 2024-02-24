@@ -1,14 +1,9 @@
 footer {
-  @apply text-sm p-10 bg-primary text-neutral-content;
-  aside{
-    @apply flex flex-row justify-between;
-    
-    .footer-title{
-      @apply text-lg text-white font-bold;
-    }
-    p{
-      @apply text-white
+  @apply text-sm py-10 bg-primary text-neutral-content;
+  .logo {
+    @apply items-center;
+    .brand {
+      @apply text-2xl font-bold;
     }
   }
-  
 }

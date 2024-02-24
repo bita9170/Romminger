@@ -51,8 +51,8 @@
         "symbol": "W",
         "atomicNumber": "74",
         "atomicWeight": "183.84",
-        "href": "/materials/wofram",
-        "name": { "en": "wofram", "de": "wofram" },
+        "href": "/materials/wolfram",
+        "name": { "en": "Tungsten", "de": "Wolfram" },
         "color": "yellow"
       }
     ]
@@ -69,14 +69,15 @@
       {
         "title": { "de": "Kontakt", "en": "Contact" },
         "icon": "<i class='fa-solid fa-phone'></i>",
-        "description": " phone: +49 7051 967 0",
+        "description": " phone: +49 (0)7051 8059030",
         "email": "info@rr-sondermetalle.com"
       },
       {
         "title": { "de": "standort", "en": "location" },
         "icon": "<i class='fa-solid fa-location-dot'></i>",
-        "description": "Gottlob-Bauknecht-Straße.26 75365 Calw Deutschland"
-        
+        "description": "Gottlob-Bauknecht-Straße 26",
+        "plz": "75365 Calw ",
+        "country": "Deutschland"
       },
       {
         "title": { "de": "Erfahrung", "en": "Experience" },

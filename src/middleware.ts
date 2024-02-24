@@ -1,10 +1,14 @@
-import { NextRequest, NextResponse } from "next/server";
+import createMiddleware from "next-intl/middleware";
 
-export function middleware(request: NextRequest) {
-  if (request.nextUrl.pathname === "/")
-    return NextResponse.redirect(new URL("/de", request.url));
-}
+export default createMiddleware({
+  // A list of all locales that are supported
+  locales: ["de", "en"],
 
-// export const config = {
-//   matcher: "/",
-// };
+  // Used when no locale matches
+  defaultLocale: "de",
+});
+
+export const config = {
+  // Match only internationalized pathnames
+  matcher: ["/", "/(de|en)/:path*"],
+};

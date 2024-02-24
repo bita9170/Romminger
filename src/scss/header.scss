@@ -1,5 +1,5 @@
 header {
-  @apply bg-white mx-auto flex w-full border-t-8 border-primary fixed left-0;
+  @apply bg-primary text-white mx-auto flex w-full fixed left-0;
   .container {
     @apply flex justify-between items-center p-8;
 
@@ -16,7 +16,7 @@ header {
           @apply relative;
           button,
           a {
-            @apply bg-transparent hover:bg-transparent;
+            @apply bg-transparent hover:bg-transparent hover:text-gray-400;
 
             &.email-link {
               @apply text-sm;

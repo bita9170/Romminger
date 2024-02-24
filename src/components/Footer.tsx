@@ -1,33 +1,39 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
+import { useParams } from "next/navigation";
 
-const Footer = ({ lang }: any) => {
-  const handleEmailClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
-    window.open("mailto:info@rr-sondermetalle.com", "_blank");
-  };
+const Footer = () => {
+  const { lang } = useParams();
   return (
     <footer className="footer">
-      <aside>
-        <span className="footer-title">RR-Sondermetalle</span>
-        <p>
-          <i className="fa-solid fa-location-dot"></i>
-          Gottlob-Bauknecht-Straße 26  <br />
-          75365 Calw Germany
-        </p>
-        <p>
-          <i className="fa-solid fa-phone"></i>
-          +49 7051 967 0 <br />
-          <i className="fa-solid fa-envelope"></i>
-          <a href="#" onClick={handleEmailClick}>
-            info@rr-sondermetalle.com
-          </a>
-        </p>
-        <p className="copyright">
-          Copyright © 2024 - All right reserved
-        </p>
-      </aside>
+      <div className="container w-full">
+        <div className="container-inner flex gap-8 justify-between">
+          <Link href={`/${lang}`}>
+            <div className="logo">
+              <h1 className="brand">RR-Sondermetalle</h1>
+            </div>
+          </Link>
+
+          <div className="grid sm:grid-cols-2 md:grid-cols-3  gap-4 items-center">
+            <p>
+              <i className="fa-solid fa-location-dot mr-2"></i>
+              Gottlob-Bauknecht-Straße 26 <br />
+              <span className="ml-5">75365 Calw Germany</span>
+            </p>
+            <p>
+              <i className="fa-solid fa-phone mr-2"></i>
+              +49 (0)7051 8059030 <br />
+              <i className="fa-solid fa-envelope mr-2"></i>
+              <a href="#">info@rr-sondermetalle.com</a>
+            </p>
+            <p className="copyright text-right">
+              Copyright © 2024 - All right reserved
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };

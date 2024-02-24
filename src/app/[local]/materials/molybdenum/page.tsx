@@ -5,7 +5,7 @@ const Molybdenumpage = () => {
     <div>
       <h3>Eigenschaften Molybdän</h3>
       <br />
-      <p>
+      <p className="text-primary">
         Molybdän ist ein chemisches Element, das zu den Übergangsmetallen gehört
         und das Symbol Mo hat. <br />
         Hier sind einige seiner wichtigsten
