@@ -5,10 +5,15 @@ header {
       .brand {
         @apply text-2xl font-bold;
       }
+      @media (max-width: 768px) {
+        .brand {
+          @apply text-xl;
+        }
+      }
+      
     }
 
     .main-menu {
-      nav {
         li {
           @apply relative;
           button,
@@ -22,7 +27,7 @@ header {
           &:hover::after {
             transform: scaleX(1);
           }
-        }
+
       }
     }
   }
@@ -53,3 +58,19 @@ header {
     }
   }
 }
+
+@media (max-width: 768px) {
+  header .container .main-menu {
+    display: none;
+  }
+}
+
+.languages{
+  @apply w-fit ; 
+}
+@media (max-width: 768px) {
+  .languages {
+    @apply max-w-[60px] ;
+  }
+}
+

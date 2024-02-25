@@ -26,7 +26,7 @@ const Language = () => {
   };
 
   return (
-    <div className="w-fit">
+    <div className="languages">
       <Select value={local} onValueChange={onSelectChange}>
         <SelectTrigger>
           <SelectValue>

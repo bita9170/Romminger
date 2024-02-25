@@ -6,6 +6,7 @@ import Language from "./Language";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
+
 const Header = () => {
   const { lang } = useParams();
   return (

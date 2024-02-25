@@ -8,8 +8,8 @@ const Footer = () => {
   const { lang } = useParams();
   return (
     <footer className="footer">
-      <div className="container w-full">
-        <div className="container-inner flex gap-8 justify-between">
+      <div className="container">
+        <div className="container-inner">
           <Link href={`/${lang}`}>
             <div className="logo">
               <h1 className="brand">RR-Sondermetalle</h1>
@@ -28,10 +28,10 @@ const Footer = () => {
               <i className="fa-solid fa-envelope mr-2"></i>
               <a href="#">info@rr-sondermetalle.com</a>
             </p>
-            <p className="copyright text-right">
+          </div>
+            <p className="copyright ">
               Copyright © 2024 - All right reserved
             </p>
-          </div>
         </div>
       </div>
     </footer>

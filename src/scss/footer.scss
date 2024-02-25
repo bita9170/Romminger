@@ -1,9 +1,55 @@
-footer {
+.footer {
   @apply text-sm py-10 bg-primary text-neutral-content;
-  .logo {
-    @apply items-center;
-    .brand {
-      @apply text-2xl font-bold;
+
+  .container {
+    @apply w-full;
+
+    .container-inner {
+      @apply flex gap-8 justify-between;
+      
+      .logo {
+        @apply items-center;
+        
+        .brand {
+          @apply text-2xl font-bold;
+        }
+      }
     }
+  }
+  .address {
+    @apply text-right; /* استایل مربوط به آدرس */
+  }
+
+  .contact {
+    @apply text-right; /* استایل مربوط به اطلاعات تماس */
+  }
+  
+  .copyright {
+    @apply text-right;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    .container {
+      @apply w-full;
+
+      .container-inner {
+        @apply flex-col gap-8 items-center;
+
+        .logo {
+          @apply items-center ;
+
+          .brand {
+            @apply text-xl font-bold;
+          }
+        }
+      }
+    }
+
+  }
+  .copyright {
+    @apply text-center;
   }
 }
