@@ -10,7 +10,7 @@ const Header = () => {
   const { lang } = useParams();
   return (
     <header>
-      <div className="container">
+      <div className="container ">
         <Link href={`/${lang}`}>
           <div className="logo">
             <h1 className="brand">RR-Sondermetalle</h1>
