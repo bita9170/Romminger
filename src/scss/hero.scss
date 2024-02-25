@@ -1,5 +1,6 @@
 .hero {
   @apply flex flex-col text-white py-4;
+
   .caption {
     @apply w-full bg-primary text-white p-12 mb-1;
   }

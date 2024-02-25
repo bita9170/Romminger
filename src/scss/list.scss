@@ -16,7 +16,7 @@
 }
 
 .materials {
-  @apply w-14 h-14 flex flex-col justify-between p-2 box-content border shadow-xl border-primary rounded-lg hover:bg-secondary;
+  @apply w-16 h-16 flex flex-col justify-between p-2 box-content border shadow-xl border-primary rounded-lg hover:bg-secondary  hover:text-black;
   .atomic-nw {
     @apply flex justify-between text-xs;
     font-size: 8px;

@@ -6,10 +6,7 @@ const CompanyItem = ({ company, lang }: { company: any; lang: any }) => {
   return (
     <div className="company capitalize">
       <div className="title">
-        <span
-          dangerouslySetInnerHTML={{ __html: company.icon }}
-          className="mr-2 "
-        ></span>
+        <span dangerouslySetInnerHTML={{ __html: company.icon }}></span>
         {company.title && (lang === "de" ? company.title.de : company.title.en)}
         <p className="description">{company.description}</p>
         {company.email && (

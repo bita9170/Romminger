@@ -78,11 +78,6 @@
         "description": "Gottlob-Bauknecht-Straße 26",
         "plz": "75365 Calw ",
         "country": "Deutschland"
-      },
-      {
-        "title": { "de": "Erfahrung", "en": "Experience" },
-        "icon": "<i class='fa-solid fa-building'></i>",
-        "description": "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar."
       }
     ]
   },
