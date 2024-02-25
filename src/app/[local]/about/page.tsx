@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="about">
+    <div className="bio">
       über uns: <br />
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, voluptatibus. Incidunt voluptatibus quas voluptatem, quod quam eligendi ipsum accusantium, <br />laudantium consectetur corporis quaerat amet eos eaque modi distinctio, dolor ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab voluptatibus
       molestiae, facilis quidem dolore vitae libero ducimus veniam minus!

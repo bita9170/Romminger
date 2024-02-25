@@ -12,58 +12,10 @@ header {
       }
       
     }
-
-    .main-menu {
-        li {
-          @apply relative;
-          button,
-          a {
-            @apply bg-transparent hover:bg-transparent hover:text-gray-400;
-
-            &.email-link {
-              @apply text-sm;
-            }
-          }
-          &:hover::after {
-            transform: scaleX(1);
-          }
-
-      }
-    }
   }
 }
 
-.materials {
-  @apply w-14 h-14 flex flex-col justify-between p-2 box-content border shadow-xl border-primary rounded-lg hover:bg-secondary;
-  .atomic-nw {
-    @apply flex justify-between text-xs;
-    font-size: 8px;
-  }
-  .symbol {
-    @apply text-center text-sm font-medium;
-  }
-  .name {
-    @apply text-center text-xs;
-    font-size: 8px;
-  }
-}
 
-.company {
-  @apply flex items-center;
-  .title {
-    @apply font-bold;
-    .description {
-      @apply text-sm font-normal text-neutral;
-      font-size: 10px;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  header .container .main-menu {
-    display: none;
-  }
-}
 
 .languages{
   @apply w-fit ; 

@@ -2,13 +2,34 @@ import React from 'react'
 
 function NiobiumPage() {
   return (
-    <div>
-      <h3>Niob <br />
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ipsum veritatis quibusdam aliquam numquam distinctio quisquam similique non cumque odio <br /> iusto sequi voluptatum maxime, nemo possimus illo reiciendis iure. Eos! <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia sint, blanditiis officiis hic pariatur dolorem modi unde itaque dignissimos tempore molestias facilis non commodi perferendis nesciunt sequi rem totam! Quod.</h1></h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti, accusamus ut sequi quaerat fugiat facere veniam cupiditate? Doloremque non illum corrupti libero excepturi quis fugiat veniam quos reprehenderit earum!
-    Ab recusandae quam libero, consequatur consectetur mollitia explicabo ullam, dolor dolorem doloremque vitae hic aut odio, reprehenderit quibusdam. Exercitationem atque inventore vel obcaecati ex amet in tempore. Eum, suscipit illo.
-    Dicta placeat corrupti esse recusandae eaque tempore quas quibusdam, voluptatem sed nihil repudiandae fuga aspernatur dolore molestiae temporibus consequatur nostrum voluptate suscipit, blanditiis, dolorum pariatur saepe! Itaque laboriosam magni expedita!
-    Dolorum, asperiores. Tempora, eligendi aspernatur alias veniam ullam debitis officiis ex natus aperiam laboriosam illum error nobis sequi magnam distinctio a molestias accusamus aliquam cupiditate? Amet minus sapiente asperiores earum?
-    Enim neque a, nulla unde aliquid nesciunt doloribus atque tempore, alias magnam temporibus, mollitia impedit vitae quos ex eligendi animi. Non maiores recusandae quod ipsa sapiente debitis libero cumque quibusdam?</div>
+    <div className="bio">
+    <h1 className="heading">Eigenschaften Niobium</h1>
+    <p>
+      Niobium ist ein chemisches Element mit dem Symbol Nb und der Ordnungszahl 41. Es gehört zur Gruppe der Übergangsmetalle und wird aufgrund seiner einzigartigen Eigenschaften in verschiedenen Anwendungen eingesetzt.
+      <br />
+      <br />
+      Hier sind einige wichtige Eigenschaften von Niobium:
+      <ol>
+        <li>
+          <strong>. Festigkeit und Härte:</strong> Niobium ist ein festes und duktiles Metall mit einer hohen Zugfestigkeit. Es wird häufig als Legierungselement in Stählen verwendet, um deren Festigkeit und Zähigkeit zu verbessern.
+        </li>
+        <li>
+          <strong>. Korrosionsbeständigkeit:</strong> Niobium ist äußerst korrosionsbeständig und bildet eine stabile Oxidschicht auf seiner Oberfläche, die es vor Korrosion schützt. Aufgrund dieser Eigenschaft wird Niobium oft in Umgebungen eingesetzt, in denen es starken chemischen Angriffen ausgesetzt ist.
+        </li>
+        <li>
+          <strong>. Temperaturbeständigkeit:</strong> Niobium behält seine mechanischen Eigenschaften auch bei hohen Temperaturen bei, was es zu einem geeigneten Material für Anwendungen in der Hochtemperaturtechnologie macht, wie z. B. in Gasturbinen und Raketenantrieben.
+        </li>
+        <li>
+          <strong>. Supraleitfähigkeit:</strong> Niobium zeigt bei sehr tiefen Temperaturen eine Supraleitfähigkeit, was bedeutet, dass es elektrischen Strom ohne Widerstand leiten kann. Diese Eigenschaft macht Niobium zu einem wichtigen Material für die Herstellung von supraleitenden Magneten und anderen elektronischen Anwendungen.
+        </li>
+        <li>
+          <strong>. Biokompatibilität:</strong> Niobium ist biologisch inert und wird gut vom menschlichen Körper toleriert. Aus diesem Grund wird es in der Medizin für die Herstellung von Implantaten wie künstlichen Gelenken und Zahnimplantaten verwendet.
+        </li>
+      </ol>
+      Niobium ist aufgrund seiner vielfältigen Eigenschaften und Anwendungsbereiche ein wichtiges Material in verschiedenen Branchen, darunter die Luft- und Raumfahrt, die Medizin, die Elektronikindustrie und die Energieerzeugung.
+    </p>
+  </div>
+  
   )
 }
 
