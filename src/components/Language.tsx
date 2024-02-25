@@ -1,4 +1,7 @@
 "use client";
+
+import { useParams, useRouter } from "next/navigation";
+import React from "react";
 import {
   Select,
   SelectContent,
@@ -9,34 +12,52 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-import React, { useTransition } from "react";
-import { useRouter } from "next/navigation";
-import { languages } from "../../config";
+import { languages } from "@/../config";
+
 import Image from "next/image";
 
 const Language = () => {
+  const { local } = useParams<{ local: string }>();
+
   const router = useRouter();
 
-  const handleClick = (value: string) => {
-    const nextLocal = value;
-    router.replace(`/${nextLocal}`);
+  const onSelectChange = (value: string) => {
+    router.replace(`/${value}`);
   };
 
   return (
-    <Select value="DE" onValueChange={handleClick}>
-      <SelectTrigger>
-        <SelectValue>DE</SelectValue>
-      </SelectTrigger>
-      <SelectContent>
-        <SelectGroup>
-          {languages.map((item) => (
-            <SelectItem key={item.name} value={item.id}>
-              {item.name}
-            </SelectItem>
-          ))}
-        </SelectGroup>
-      </SelectContent>
-    </Select>
+    <div className="w-fit">
+      <Select value={local} onValueChange={onSelectChange}>
+        <SelectTrigger>
+          <SelectValue>
+            <Image
+              src={`/languages/${local}.png`}
+              alt={local}
+              width={20}
+              height={20}
+              className="mr-2"
+            />
+          </SelectValue>
+        </SelectTrigger>
+        <SelectContent>
+          <SelectGroup>
+            {languages.map((item) => (
+              <SelectItem value={item.id}>
+                <div className="flex gap-2">
+                  <Image
+                    src={`/languages/${item.id}.png`}
+                    alt={local}
+                    width={20}
+                    height={20}
+                  />
+                  {item.name}
+                </div>
+              </SelectItem>
+            ))}
+          </SelectGroup>
+        </SelectContent>
+      </Select>
+    </div>
   );
 };
 

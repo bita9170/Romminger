@@ -11,13 +11,15 @@ const Header = () => {
   return (
     <header>
       <div className="container ">
-        <Link href={`/${lang}`}>
-          <div className="logo">
-            <h1 className="brand">RR-Sondermetalle</h1>
-          </div>
-        </Link>
-        <Navbar />
-        <Language />
+        <div className="flex justify-between py-8 items-center">
+          <Link href={`/${lang}`}>
+            <div className="logo">
+              <h1 className="brand">RR-Sondermetalle</h1>
+            </div>
+          </Link>
+          <Navbar />
+          <Language />
+        </div>
       </div>
     </header>
   );

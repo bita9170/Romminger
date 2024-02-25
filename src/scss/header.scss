@@ -1,10 +1,7 @@
 header {
-  @apply bg-primary text-white mx-auto flex w-full fixed left-0;
+  @apply bg-primary text-white mx-auto w-full fixed;
   .container {
-    @apply grid grid-cols-3 items-center p-8;
-
     .logo {
-      @apply items-center;
       .brand {
         @apply text-2xl font-bold;
       }
