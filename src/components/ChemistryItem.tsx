@@ -1,7 +1,10 @@
 import React from "react";
 import Link from "next/link";
+// import { useTranslations } from "next-intl";
 
 const ChemistryItem = ({ material, lang }: { material: any; lang: any }) => {
+  // const t = useTranslations("materials-item");
+
   return (
     <Link href={`/${lang}${material.href}`}>
       <div className="materials">
