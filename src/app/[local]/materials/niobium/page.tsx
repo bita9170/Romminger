@@ -8,7 +8,7 @@ function NiobiumPage() {
       Niobium ist ein chemisches Element mit dem Symbol Nb und der Ordnungszahl 41. Es gehört zur Gruppe der Übergangsmetalle und wird aufgrund seiner einzigartigen Eigenschaften in verschiedenen Anwendungen eingesetzt.
       <br />
       <br />
-      Hier sind einige wichtige Eigenschaften von Niobium:
+     
       <ol>
         <li>
           <strong>. Festigkeit und Härte:</strong> Niobium ist ein festes und duktiles Metall mit einer hohen Zugfestigkeit. Es wird häufig als Legierungselement in Stählen verwendet, um deren Festigkeit und Zähigkeit zu verbessern.

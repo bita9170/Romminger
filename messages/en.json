@@ -10,7 +10,11 @@
     "company": "Company",
     "about": "About us"
   },
-  "materials" : {
-    
+  "materials-item" : {
+    "mo": "Molybdenum",
+    "ta": "Tantalum",
+    "ti": "Titanium",
+    "nb": "Niobium",
+    "w": "Tungsten"
   }
 }

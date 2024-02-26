@@ -9,5 +9,12 @@
     "materials": "Werkstoffe",
     "company": "Unternehmen",
     "about": "Über uns"
+  },
+  "materials-item" : {
+    "mo": "Molybdän",
+    "ta": "Tantal",
+    "ti": "Titan",
+    "nb": "Niob",
+    "w": "Wolfram"
   }
 }

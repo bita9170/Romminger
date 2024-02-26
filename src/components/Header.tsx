@@ -18,6 +18,7 @@ const Header = () => {
               <h1 className="brand">RR-Sondermetalle</h1>
             </div>
           </Link>
+          
           <Navbar />
           <Language />
         </div>
