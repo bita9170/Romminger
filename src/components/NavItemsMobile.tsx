@@ -51,7 +51,7 @@ const NavItemsMobile = () => {
         </AccordionItem>
       </Accordion>
     ) : (
-      <Link href={`/${local}${item.href}`} legacyBehavior passHref>
+      <Link href={`/${local}${item.href}`} legacyBehavior passHref key={index}>
         <span className="text-xl font-semibold leading-10 border-b block py-4">
           {local === "de" ? item.label.de : item.label.en}
         </span>
