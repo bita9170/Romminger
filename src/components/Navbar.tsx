@@ -1,74 +1,35 @@
 "use client";
 
-import Link from "next/link";
 import React from "react";
-import navbar from "@/data/navbar.json";
-import { useParams } from "next/navigation";
-import ChemistryItem from "./ChemistryItem";
-import CompanyItem from "./CompanyItem";
+import NavItems from "./NavItems";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { Button } from "@/components/ui/button";
 import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu";
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import NavItemsMobile from "./NavItemsMobile";
 
 const Navbar = () => {
-  const { lang } = useParams();
-
-  const renderSwitch = (item: any) => {
-    switch (item.hasSubmenu.type) {
-      case "materials":
-        return (
-          <ul className="flex justify-between gap-3 p-4 ">
-            {item.submenu?.map((item: any, index: number) => (
-              <li key={index}>
-                <CompanyItem company={item} lang={lang} />
-                <ChemistryItem material={item} lang={lang} />
-              </li>
-            ))}
-          </ul>
-        );
-      case "company":
-        return (
-          <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-            {item.submenu?.map((item: any, index: number) => (
-              <li key={index}>
-                <CompanyItem company={item} lang={lang} />
-              </li>
-            ))}
-          </ul>
-        );
-    }
-  };
-
   return (
     <div className="main-menu">
-      <NavigationMenu>
-        <NavigationMenuList>
-          {navbar.map((item, index) => (
-            <NavigationMenuItem key={index}>
-              {item.hasSubmenu.status ? (
-                <NavigationMenuTrigger>
-                  {lang === "de" ? item.label.de : item.label.en}
-                  <NavigationMenuContent>
-                    {renderSwitch(item)}
-                  </NavigationMenuContent>
-                </NavigationMenuTrigger>
-              ) : (
-                <Link href={`/${lang}${item.href}`} legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    {lang === "de" ? item.label.de : item.label.en}
-                  </NavigationMenuLink>
-                </Link>
-              )}
-            </NavigationMenuItem>
-          ))}
-        </NavigationMenuList>
-      </NavigationMenu>
+      <NavItems />
+      <Sheet>
+        <SheetTrigger asChild>
+          <Button variant="outline" className="hamburger-menu">
+            <HamburgerMenuIcon className="h-4 w-4" />
+          </Button>
+        </SheetTrigger>
+        <SheetContent side="left">
+          <NavItemsMobile />
+        </SheetContent>
+      </Sheet>
     </div>
   );
 };
