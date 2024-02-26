@@ -1,10 +1,9 @@
 import React from "react";
 import Link from "next/link";
-// import { useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 
 const ChemistryItem = ({ material, lang }: { material: any; lang: any }) => {
-  // const t = useTranslations("materials-item");
-
+  const t = useTranslations("materials-item");
   return (
     <Link href={`/${lang}${material.href}`}>
       <div className="materials">
@@ -13,10 +12,7 @@ const ChemistryItem = ({ material, lang }: { material: any; lang: any }) => {
           <span>{material.atomicWeight}</span>
         </div>
         <div className="symbol">{material.symbol}</div>
-        <div className="name">
-          {material.name &&
-            (lang === "de" ? material.name.de : material.name.en)}
-        </div>
+        <div className="name">{material.name && t(material.name)}</div>
       </div>
     </Link>
   );

@@ -20,7 +20,7 @@
         "atomicNumber": "42",
         "atomicWeight": "95.950",
         "href": "/materials/molybdenum",
-        "name": { "en": "Molybdenum", "de": "Molybdän" },
+        "name": "mo",
         "color": "green"
       },
       {
@@ -28,7 +28,7 @@
         "atomicNumber": "73",
         "atomicWeight": "180.95",
         "href": "/materials/tantalum",
-        "name": { "en": "Tantalum", "de": "Tantal" },
+        "name": "ta",
         "color": "green"
       },
       {
@@ -36,7 +36,7 @@
         "atomicNumber": "22",
         "atomicWeight": "47.867",
         "href": "/materials/titanium",
-        "name": { "en": "Titanium", "de": "Titan" },
+        "name": "ti",
         "color": "red"
       },
       {
@@ -44,7 +44,7 @@
         "atomicNumber": "41",
         "atomicWeight": "92.906",
         "href": "/materials/niobium",
-        "name": { "en": "Niobium", "de": "Niobium" },
+        "name": "nb",
         "color": "green"
       },
       {
@@ -52,7 +52,7 @@
         "atomicNumber": "74",
         "atomicWeight": "183.84",
         "href": "/materials/wolfram",
-        "name": { "en": "Tungsten", "de": "Wolfram" },
+        "name": "w",
         "color": "yellow"
       }
     ]

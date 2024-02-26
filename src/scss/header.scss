@@ -18,10 +18,11 @@ header {
 
         ul {
           @apply grid md:flex;
+         
         }
       }
       .hamburger-menu {
-        @apply block md:hidden;
+        @apply block ml-32 md:hidden;
       }
     }
   }

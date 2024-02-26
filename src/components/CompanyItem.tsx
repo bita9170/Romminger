@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 
 const CompanyItem = ({ company, lang }: { company: any; lang: any }) => {
-  console.log(company.email);
   return (
     <div className="company capitalize">
       <div className="title">

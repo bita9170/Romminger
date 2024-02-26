@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@/scss/main.scss";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { NextIntlClientProvider, useMessages } from "next-intl";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,14 +16,17 @@ export default function LocalLayout({
   children: React.ReactNode;
   params: { locale: string };
 }>) {
+  const messages = useMessages();
   return (
     <html lang={locale}>
       <body>
-        <div className="body-inner">
-          <Header />
-          <main className="main-content pt-[108px]">{children}</main>
-          <Footer />
-        </div>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <div className="body-inner">
+            <Header />
+            <main className="main-content pt-[108px]">{children}</main>
+            <Footer />
+          </div>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

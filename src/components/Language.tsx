@@ -42,7 +42,7 @@ const Language = () => {
         <SelectContent>
           <SelectGroup>
             {languages.map((item) => (
-              <SelectItem value={item.id}>
+              <SelectItem value={item.id} key={item.name}>
                 <div className="flex gap-2">
                   <Image
                     src={`/languages/${item.id}.png`}

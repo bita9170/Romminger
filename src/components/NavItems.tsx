@@ -15,9 +15,10 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { NextIntlClientProvider } from "next-intl";
 
 const NavItems = () => {
-  const { lang } = useParams();
+  const { local } = useParams();
   const renderSwitch = (item: any) => {
     switch (item.hasSubmenu.type) {
       case "materials":
@@ -25,18 +26,17 @@ const NavItems = () => {
           <ul className="flex justify-between gap-3 p-4 ">
             {item.submenu?.map((item: any, index: number) => (
               <li key={index}>
-                <CompanyItem company={item} lang={lang} />
-                <ChemistryItem material={item} lang={lang} />
+                <ChemistryItem material={item} lang={local} />
               </li>
             ))}
           </ul>
         );
       case "company":
         return (
-          <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+          <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
             {item.submenu?.map((item: any, index: number) => (
               <li key={index}>
-                <CompanyItem company={item} lang={lang} />
+                <CompanyItem company={item} lang={local} />
               </li>
             ))}
           </ul>
@@ -50,15 +50,15 @@ const NavItems = () => {
           <NavigationMenuItem key={index}>
             {item.hasSubmenu.status ? (
               <NavigationMenuTrigger>
-                {lang === "de" ? item.label.de : item.label.en}
+                {local === "de" ? item.label.de : item.label.en}
                 <NavigationMenuContent>
                   {renderSwitch(item)}
                 </NavigationMenuContent>
               </NavigationMenuTrigger>
             ) : (
-              <Link href={`/${lang}${item.href}`} legacyBehavior passHref>
+              <Link href={`/${local}${item.href}`} legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  {lang === "de" ? item.label.de : item.label.en}
+                  {local === "de" ? item.label.de : item.label.en}
                 </NavigationMenuLink>
               </Link>
             )}

@@ -22,7 +22,7 @@ const HomePageEng = ({ params }: any) => {
         
           <div className="flex flex-col mb-8 lg:mb-14 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <Link
-              href={`/${params.lang}/about`}
+              href={`/${params.local}/about`}
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               {t("hero-button-text")}
