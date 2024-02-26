@@ -11,6 +11,19 @@ header {
         }
       }
     }
+
+    .main-menu {
+      nav {
+        @apply hidden md:block;
+
+        ul {
+          @apply grid md:flex;
+        }
+      }
+      .hamburger-menu {
+        @apply block md:hidden;
+      }
+    }
   }
 }
 

@@ -41,12 +41,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  header .container .main-menu {
-    display: none;
-  }
-}
-
 .bio {
   @apply text-primary max-w-[1300px] p-8 mx-auto my-8;
   .heading {
