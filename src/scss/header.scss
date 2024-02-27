@@ -1,9 +1,9 @@
 header {
-  @apply bg-primary text-white mx-auto w-full fixed z-50;
+  @apply bg-primary text-white mx-auto w-full fixed z-50 py-5;
   .container {
     .logo {
       .brand {
-        @apply text-2xl font-bold;
+        @apply text-3xl font-bold;
       }
       @media (max-width: 768px) {
         .brand {
@@ -28,10 +28,5 @@ header {
 }
 
 .languages {
-  @apply w-fit;
-}
-@media (max-width: 768px) {
-  .languages {
-    @apply max-w-[60px];
-  }
+  @apply max-w-[60px] md:w-fit;
 }

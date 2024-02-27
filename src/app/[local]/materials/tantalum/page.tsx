@@ -11,7 +11,7 @@ function TantalumPage() {
         <strong>. Physikalische Eigenschaften:</strong> Tantal ist ein hartes,
         duktiles und korrosionsbeständiges Metall. Es hat einen hohen
         Schmelzpunkt von etwa 3.017 Grad Celsius und einen niedrigen
-        Ausdehnungskoeffizienten. Es ist auch ein guter elektrischer Leiter.{" "}
+        Ausdehnungskoeffizienten. Es ist auch ein guter elektrischer Leiter.
         <br />
         <br />
         <strong>. Chemische Eigenschaften:</strong> Tantal ist ein

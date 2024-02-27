@@ -16,17 +16,17 @@
 }
 
 .materials {
-  @apply w-16 h-16 flex flex-col justify-between p-2 box-content border shadow-xl border-primary rounded-lg hover:bg-secondary  hover:text-black;
+  @apply w-20 h-20 flex flex-col justify-between p-2 box-content border shadow-xl border-primary rounded-lg hover:bg-secondary  hover:text-black;
   .atomic-nw {
     @apply flex justify-between text-xs;
-    font-size: 8px;
+    
   }
   .symbol {
-    @apply text-center text-sm font-medium;
+    @apply text-center text-xl font-medium;
   }
   .name {
-    @apply text-center text-xs;
-    font-size: 8px;
+    @apply text-center text-[12px];
+    
   }
 }
 
@@ -36,7 +36,6 @@
     @apply font-bold;
     .description {
       @apply text-sm font-normal text-neutral;
-      font-size: 10px;
     }
   }
 }

@@ -16,13 +16,6 @@
       }
     }
   }
-  .address {
-    @apply text-right; /* استایل مربوط به آدرس */
-  }
-
-  .contact {
-    @apply text-right; /* استایل مربوط به اطلاعات تماس */
-  }
 
   .copyright {
     @apply text-right;
@@ -32,8 +25,6 @@
 @media (max-width: 768px) {
   .footer {
     .container {
-      @apply w-full;
-
       .container-inner {
         @apply flex-col gap-8 items-center;
 

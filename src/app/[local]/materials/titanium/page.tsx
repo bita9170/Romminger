@@ -14,17 +14,22 @@ function titaniumPage() {
         <strong>. Festigkeit und Härte:</strong> Titan ist eines der stärksten Elemente und hat eine hohe Zugfestigkeit. Es kann hohen Belastungen standhalten und ist daher in vielen industriellen Anwendungen wie im Flugzeug- und Schiffbau sehr gefragt.
       </li>
       <li>
+        <br />
         <strong>. Korrosionsbeständigkeit:</strong> Titan ist äußerst korrosionsbeständig, da es eine dünne Schicht aus Titanoxid bildet, die das darunterliegende Metall vor Sauerstoff, Wasser und anderen reaktiven Substanzen schützt. Daher wird Titan oft in Umgebungen eingesetzt, in denen Korrosion ein Problem darstellen würde, wie beispielsweise in der chemischen Industrie oder im Meerwasser.
       </li>
+        <br />
       <li>
         <strong>. Geringe Dichte:</strong> Titan hat eine geringere Dichte als die meisten strukturellen Metalle, was bedeutet, dass es relativ leicht ist. Diese geringe Dichte macht es zu einem bevorzugten Material für Anwendungen, bei denen Gewicht eine Rolle spielt, wie bei Flugzeugen und Raumfahrzeugen.
       </li>
+      <br />
       <li>
         <strong>. Biokompatibilität:</strong> Titan ist biologisch inert und wird gut von menschlichem Gewebe toleriert. Dies macht es zu einem geeigneten Material für medizinische Implantate wie Hüftprothesen, Schrauben und Stifte, da es eine minimale Immunreaktion hervorruft.
       </li>
+      <br />
       <li>
         <strong>. Wärmebeständigkeit:</strong> Titan kann hohen Temperaturen standhalten, ohne seine mechanischen Eigenschaften zu verlieren. Es bleibt bei hohen Temperaturen stark und stabil, was es zu einem wertvollen Material für Anwendungen in der Luft- und Raumfahrt, der chemischen Industrie und der Energieerzeugung macht.
       </li>
+      <br />
       <li>
         <strong>. Leitfähigkeit:</strong> Titan ist ein guter elektrischer Leiter und wird in verschiedenen Anwendungen eingesetzt, bei denen elektrische Leitfähigkeit erforderlich ist, z. B. in der Elektronikindustrie.
       </li>

@@ -16,7 +16,7 @@ const HomePageEng = ({ params }: any) => {
     <div className="hero">
       <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-          <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-700 md:text-5xl lg:text-4xl dark:text-white">
+          <h1 className="mb-10 mt-10 text-4xl font-extrabold tracking-tight leading-none text-gray-700 md:text-5xl lg:text-4xl dark:text-white">
             {t("hero-title")}
           </h1>
 
@@ -32,24 +32,24 @@ const HomePageEng = ({ params }: any) => {
             <span className="font-semibold text-gray-400 uppercase">
               {t("hero-material")}
             </span>
-            <div className="flex flex-wrap justify-center items-center mt-4 text-gray-500 sm:justify-between px-6 md:px-0">
+            <div className="flex flex-wrap justify-center items-center mt-6 text-gray-500 sm:justify-between px-6 md:px-0">
               <Carousel
                 opts={{
                   align: "center",
                 }}
-                className="w-full mx-auto"
+                className="w-full"
               >
                 <CarouselContent>
                   {Array.from({ length: 11 }).map((_, index) => (
                     <CarouselItem
                       key={index}
-                      className="md:basis-1/2 lg:basis-1/4"
+                      className="md:basis-1/2 lg:basis-1/4" 
                     >
                       <Image
                         src={`./materials/${index + 1}.jpg`}
                         alt=""
-                        width="400"
-                        height="400"
+                        width="500"
+                        height="500"
                         className="border-2 border-primary rounded-md"
                       />
                     </CarouselItem>
