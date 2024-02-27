@@ -19,7 +19,7 @@ const HomePageEng = ({ params }: any) => {
           <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-700 md:text-5xl lg:text-4xl dark:text-white">
             {t("hero-title")}
           </h1>
-        
+
           <div className="flex flex-col mb-8 lg:mb-14 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <Link
               href={`/${params.local}/about`}
@@ -46,7 +46,7 @@ const HomePageEng = ({ params }: any) => {
                       className="md:basis-1/2 lg:basis-1/4"
                     >
                       <Image
-                        src={`/materials/${index + 1}.jpg`}
+                        src={`./materials/${index + 1}.jpg`}
                         alt=""
                         width="400"
                         height="400"

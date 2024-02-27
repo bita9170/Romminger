@@ -1,5 +1,5 @@
 header {
-  @apply bg-primary text-white mx-auto w-full fixed;
+  @apply bg-primary text-white mx-auto w-full fixed z-50;
   .container {
     .logo {
       .brand {
@@ -18,7 +18,6 @@ header {
 
         ul {
           @apply grid md:flex;
-         
         }
       }
       .hamburger-menu {

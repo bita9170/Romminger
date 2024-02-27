@@ -5,11 +5,11 @@
     @apply w-full;
 
     .container-inner {
-      @apply flex gap-8 justify-between;
-      
+      @apply flex gap-8 justify-between w-full;
+
       .logo {
         @apply items-center;
-        
+
         .brand {
           @apply text-2xl font-bold;
         }
@@ -23,12 +23,11 @@
   .contact {
     @apply text-right; /* استایل مربوط به اطلاعات تماس */
   }
-  
+
   .copyright {
     @apply text-right;
   }
 }
-
 
 @media (max-width: 768px) {
   .footer {
@@ -39,7 +38,7 @@
         @apply flex-col gap-8 items-center;
 
         .logo {
-          @apply items-center ;
+          @apply items-center;
 
           .brand {
             @apply text-xl font-bold;
@@ -47,7 +46,6 @@
         }
       }
     }
-
   }
   .copyright {
     @apply text-center;

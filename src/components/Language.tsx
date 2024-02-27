@@ -31,7 +31,7 @@ const Language = () => {
         <SelectTrigger>
           <SelectValue>
             <Image
-              src={`/languages/${local}.png`}
+              src={`./languages/${local}.png`}
               alt={local}
               width={20}
               height={20}
@@ -45,7 +45,7 @@ const Language = () => {
               <SelectItem value={item.id} key={item.name}>
                 <div className="flex gap-2">
                   <Image
-                    src={`/languages/${item.id}.png`}
+                    src={`./languages/${item.id}.png`}
                     alt={local}
                     width={20}
                     height={20}
