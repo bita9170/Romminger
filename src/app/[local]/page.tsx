@@ -32,12 +32,12 @@ const HomePageEng = ({ params }: any) => {
             <span className="font-semibold text-gray-400 uppercase">
               {t("hero-material")}
             </span>
-            <div className="flex flex-wrap justify-center items-center mt-4 text-gray-500 sm:justify-between">
+            <div className="flex flex-wrap justify-center items-center mt-4 text-gray-500 sm:justify-between px-6 md:px-0">
               <Carousel
                 opts={{
                   align: "center",
                 }}
-                className="w-full  mx-auto"
+                className="w-full mx-auto"
               >
                 <CarouselContent>
                   {Array.from({ length: 11 }).map((_, index) => (

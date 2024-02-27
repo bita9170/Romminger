@@ -68,13 +68,13 @@
     "submenu": [
       {
         "title": { "de": "Kontakt", "en": "Contact" },
-        "icon": "<i class='fa-solid fa-phone'></i>",
+        "icon": "<i class='fa-solid fa-phone mr-2'></i>",
         "description": " phone: +49 (0)7051 8059030",
         "email": "info@rr-sondermetalle.com"
       },
       {
         "title": { "de": "standort", "en": "location" },
-        "icon": "<i class='fa-solid fa-location-dot'></i>",
+        "icon": "<i class='fa-solid fa-location-dot mr-2'></i>",
         "description": "Gottlob-Bauknecht-Straße 26",
         "plz": "75365 Calw ",
         "country": "Deutschland"

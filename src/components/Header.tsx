@@ -6,19 +6,18 @@ import Language from "./Language";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
-
 const Header = () => {
-  const { lang } = useParams();
+  const { local } = useParams();
   return (
     <header>
       <div className="container ">
         <div className="flex justify-between py-8 items-center">
-          <Link href={`/${lang}`}>
+          <Link href={`/${local}`}>
             <div className="logo">
               <h1 className="brand">RR-Sondermetalle</h1>
             </div>
           </Link>
-          
+
           <Navbar />
           <Language />
         </div>
