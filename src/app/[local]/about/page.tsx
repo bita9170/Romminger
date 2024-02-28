@@ -3,11 +3,18 @@ import React from "react";
 const AboutPage = () => {
   return (
     <div className="bio">
-      über uns: <br />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, voluptatibus. Incidunt voluptatibus quas voluptatem, quod quam eligendi ipsum accusantium, <br />laudantium consectetur corporis quaerat amet eos eaque modi distinctio, dolor ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab voluptatibus
-      molestiae, facilis quidem dolore vitae libero ducimus veniam minus!
-      <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus provident dolores sit earum minima veniam laborum id dicta reprehenderit nobis fugiat aut quidem dolore, quisquam, explicabo aspernatur modi quos. Est. <br />
-      Officiis natus, minima quas labore fugit esse in hic repudiandae maxime.
+      Der erfolgreiche Gründer von Firma Romminger Edelstahltechnik &
+      Lasertechnik bringt sich mit seinem herausragenden und jahrzehntelangen
+      Erfahrungsschatz in die Firma RR-Sondermetalle ein.
+      <br />
+      Wir liefern
+      verschiedenste Metalle mit dem gewissen Etwas. Halbzeuge aus Titan,
+      Molybdän und Tantal gehören unter anderem zu unserem
+      Standard-Lieferprogramm.
+      <br />
+      Sie können sich bei einer Zusammenarbeit
+      verbunden mit unserem Know-how auf die Erfüllung höchster
+      Qualitätsanforderungen freuen.
     </div>
   );
 };
