@@ -7,7 +7,10 @@ const CompanyItem = ({ company, lang }: { company: any; lang: any }) => {
       <div className="title">
         <span dangerouslySetInnerHTML={{ __html: company.icon }}></span>
         {company.title && (lang === "de" ? company.title.de : company.title.en)}
-        <p className="description">{company.description}</p>
+        <p
+          className="description"
+          dangerouslySetInnerHTML={{ __html: company.description }}
+        ></p>
         {company.email && (
           <Link
             href={`mailto:${company.email}`}

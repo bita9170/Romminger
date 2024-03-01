@@ -28,7 +28,7 @@ const HomePageEng = ({ params }: any) => {
               {t("hero-button-text")}
             </Link>
           </div>
-          <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+          <div className="px-4 mx-auto text-center">
             <span className="font-semibold text-gray-400 uppercase">
               {t("hero-material")}
             </span>
@@ -43,10 +43,10 @@ const HomePageEng = ({ params }: any) => {
                   {Array.from({ length: 11 }).map((_, index) => (
                     <CarouselItem
                       key={index}
-                      className="md:basis-1/2 lg:basis-1/4" 
+                      className="md:basis-1/2 lg:basis-1/4"
                     >
                       <Image
-                        src={`./materials/${index + 1}.jpg`}
+                        src={`/materials/${index + 1}.jpg`}
                         alt=""
                         width="500"
                         height="500"

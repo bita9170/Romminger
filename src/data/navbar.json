@@ -75,9 +75,7 @@
       {
         "title": { "de": "standort", "en": "location" },
         "icon": "<i class='fa-solid fa-location-dot mr-2'></i>",
-        "description": "Gottlob-Bauknecht-Straße 26",
-        "plz": "75365 Calw ",
-        "country": "Deutschland"
+        "description": "Gottlob-Bauknecht-Straße 26 <br/> 75365 Calw, Deutschland"
       }
     ]
   },

@@ -4,17 +4,23 @@
     "hero-button-text": "Über uns",
     "hero-material": "Werkstoffe"
   },
-  "navigation" : {
+  "navigation": {
     "home": "Home",
     "materials": "Werkstoffe",
     "company": "Unternehmen",
     "about": "Über uns"
   },
-  "materials-item" : {
+  "materials-item": {
     "mo": "Molybdän",
     "ta": "Tantal",
     "ti": "Titan",
     "nb": "Niob",
     "w": "Wolfram"
+  },
+  "pages": {
+    "sadegh": {
+      "title": "Sadegh-de",
+      "text": "Saedi Nia-de"
+    }
   }
 }

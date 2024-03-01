@@ -4,17 +4,23 @@
     "hero-button-text": "About us",
     "hero-material": "Material"
   },
-  "navigation" : {
+  "navigation": {
     "home": "Home",
     "materials": "Materials",
     "company": "Company",
     "about": "About us"
   },
-  "materials-item" : {
+  "materials-item": {
     "mo": "Molybdenum",
     "ta": "Tantalum",
     "ti": "Titanium",
     "nb": "Niobium",
     "w": "Tungsten"
+  },
+  "pages": {
+    "sadegh": {
+      "title": "Sadegh-en",
+      "text": "Saedi Nia-en"
+    }
   }
 }
