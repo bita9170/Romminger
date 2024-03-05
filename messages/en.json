@@ -17,10 +17,91 @@
     "nb": "Niobium",
     "w": "Tungsten"
   },
-  "pages": {
-    "sadegh": {
-      "title": "Sadegh-en",
-      "text": "Saedi Nia-en"
+
+  "propertys": {
+    "Molybdenum": {
+      "title": "Properties of Molybdenum",
+      "text": "Molybdenum is a chemical element that belongs to the transition metals group and has the symbol Mo.",
+      "strong1": ". Physical Properties:",
+      "physicalProperties": "Molybdenum is a silver-white metal with high density. It is very hard and brittle, yet malleable and forgeable. The melting point of molybdenum is around 2,620 degrees Celsius, making it a metal with a high melting temperature.",
+      "strong2": ". Chemical Properties:",
+      "chemicalProperties": "Molybdenum is resistant to most chemical reagents. It does not react with air or oxygen at room temperature. However, at high temperatures, it can react with oxygen to form molybdenum(VI) oxide (MoO3). It also reacts with some acids and bases, such as nitric acid or sodium hydroxide.",
+      "strong3": ". Magnetic Properties:",
+      "magneticProperties": "Molybdenum is slightly magnetic. This means it has low magnetizability but does not exhibit full magnetic properties.",
+      "strong4": ". Electrical Conductivity:",
+      "electricalConductivity": "Molybdenum is a good electrical conductor. It has a relatively high electrical conductivity, although lower than that of copper or aluminum.",
+      "strong5": ". Corrosion Resistance:",
+      "corrosionResistance": "Molybdenum is highly resistant to corrosion and oxidation. It can remain stable in reactive environments at high temperatures.",
+      "strong6": ". High Melting Temperature:",
+      "highMeltingTemperature": "The high melting temperature of molybdenum makes it an important material for applications in high-temperature environments. It is often used in high-temperature furnaces, in the aerospace industry, in the production of lighting devices, and in other applications where high temperatures may occur.",
+      "strong7": ". Catalytic Properties:",
+      "catalyticProperties": "Molybdenum is often used as a catalyst in various chemical reactions. It can increase the reaction rate and influence the desired products in certain chemical reactions. These are just some of the important properties of molybdenum. The metal has a wide range of applications in various industries due to its unique properties."
+    },
+
+    "Tantalum": {
+      "title": "Properties of Tantalum",
+      "text": "Tantalum is a chemical element that belongs to the group of transition metals. It has the element symbol Ta and the atomic number 73.",
+      "strong1": ". Physical Properties:",
+      "physicalProperties": "Tantalum is a hard, ductile, and corrosion-resistant metal. It has a high melting point of about 3,017 degrees Celsius and a low coefficient of thermal expansion. It is also a good electrical conductor.",
+      "strong2": ". Chemical Properties:",
+      "chemicalProperties": "Tantalum is a relatively unreactive metal and only slowly reacts with oxygen under normal conditions. It is resistant to many acids, including hydrochloric acid and sulfuric acid. Tantalum also forms a protective layer of tantalum oxide on its surface, further enhancing its corrosion resistance.",
+      "strong3": ". Density and Weight:",
+      "densityAndWeight": "Tantalum has a high density of about 16.6 grams per cubic centimeter, making it one of the densest metals. It is also relatively heavy, weighing about 16.6 grams per mole.",
+      "strong4": ". Use:",
+      "use": "Due to its excellent heat resistance, corrosion resistance, and mechanical strength, tantalum is used in many applications. It is commonly used in the electronics industry for capacitors and resistors. Tantalum is also used in medicine, the aerospace sector, and the chemical industry.",
+      "strong5": ". Availability and Extraction:",
+      "availabilityAndExtraction": "Tantalum is a rare element and occurs only in relatively small quantities in the Earth's crust. The largest deposits are found in Africa, particularly in the Democratic Republic of the Congo. Tantalum is extracted through mining methods such as the extraction of tantalum ores, followed by various chemical processes to purify and refine it."
+    },
+
+    "Titanium": {
+      "title": "Properties of Titanium",
+      "text": "Titanium is a chemical element with the symbol Ti and atomic number 22. It is a transition metal that is commonly found in nature in compounds and has a wide range of applications due to its diverse properties.",
+      "strong1": ". Strength and Hardness:",
+      "strengthAndHardness": "Titanium is one of the strongest elements and has high tensile strength. It can withstand high loads and is therefore highly demanded in many industrial applications such as aircraft and shipbuilding.",
+      "strong2": ". Corrosion Resistance:",
+      "corrosionResistance": "Titanium is extremely corrosion-resistant, forming a thin layer of titanium oxide that protects the underlying metal from oxygen, water, and other reactive substances. Therefore, titanium is often used in environments where corrosion would be a problem, such as in the chemical industry or seawater.",
+      "strong3": ". Low Density:",
+      "lowDensity": "Titanium has a lower density than most structural metals, meaning it is relatively light. This low density makes it a preferred material for applications where weight is a concern, such as in aircraft and spacecraft.",
+      "strong4": ". Biocompatibility:",
+      "biocompatibility": "Titanium is biologically inert and is well tolerated by human tissue. This makes it a suitable material for medical implants such as hip prostheses, screws, and pins, as it induces minimal immune response.",
+      "strong5": ". Heat Resistance:",
+      "heatResistance": "Titanium can withstand high temperatures without losing its mechanical properties. It remains strong and stable at high temperatures, making it a valuable material for applications in aerospace, chemical industry, and power generation.",
+      "strong6": ". Conductivity:",
+      "conductivity": "Titanium is a good electrical conductor and is used in various applications where electrical conductivity is required, such as in the electronics industry.",
+      "lastText": "These properties make titanium a versatile material widely used in various industries. It is commonly used in aerospace, medicine, chemical industry, automotive industry, and many other fields."
+    },
+
+    "Niobium": {
+      "title": "Properties of Niobium",
+      "text": "Niobium is a chemical element with the symbol Nb and atomic number 41. It belongs to the group of transition metals and is used in various applications due to its unique properties.",
+      "strong1": ". Strength and Hardness: ",
+      "strengthAndHardness": "Niobium is a strong and ductile metal with high tensile strength. It is commonly used as an alloying element in steels to improve their strength and toughness.",
+      "strong2": ". Corrosion Resistance:",
+      "corrosionResistance": "Niobium is extremely corrosion-resistant and forms a stable oxide layer on its surface, protecting it from corrosion. Because of this property, niobium is often used in environments exposed to strong chemical attacks.",
+      "strong3": ". Temperature Resistance:",
+      "temperatureResistance": "Niobium retains its mechanical properties even at high temperatures, making it suitable for use in high-temperature technologies such as gas turbines and rocket propulsion systems.",
+      "strong4": ". Superconductivity:",
+      "superconductivity": "Niobium exhibits superconductivity at very low temperatures, meaning it can conduct electric current without resistance. This property makes niobium an important material for manufacturing superconducting magnets and other electronic applications.",
+      "strong5": ". Biocompatibility:",
+      "biocompatibility": "Niobium is biologically inert and well tolerated by the human body. For this reason, it is used in medicine for manufacturing implants such as artificial joints and dental implants.",
+      "lastText": "Niobium is an important material in various industries due to its unique properties and applications. It is commonly used in aerospace, medicine, electronics, and energy generation."
+    },
+
+    "Wolfram": {
+      "title": "Properties of Tungsten",
+      "text": "Tungsten is a chemical element with the symbol W and atomic number 74. It is a transition metal and has a wide range of applications due to its unique properties.",
+      "strong1": ". High Melting Point: ",
+      "highMeltingPoint": "Tungsten has one of the highest melting points of all elements at around 3,422 degrees Celsius. Because of this high melting temperature, tungsten is often used in applications that require extreme temperature resistance, such as in high-temperature furnaces and aerospace technology.",
+      "strong2": ". High Density:",
+      "highDensity": "Tungsten is one of the densest metals and has a high density of about 19.3 grams per cubic centimeter. This high density makes tungsten a suitable material for applications requiring high mass or weight, such as in armor and ammunition.",
+      "strong3": ". Chemical Resistance:",
+      "chemicalResistance": "Tungsten is highly resistant to chemical corrosion and reacts slowly with oxygen, water, and most acids. This resistance makes tungsten a suitable material for applications where corrosion would be a problem, such as in chemical plants and the electronics industry.",
+      "strong4": ". High Tensile Strength:",
+      "highTensileStrength": "Tungsten is a very strong metal with high tensile strength. It is commonly used in alloys to improve the strength and hardness of materials, such as in tools and high-performance components.",
+      "strong5": ". Electrical Conductivity:",
+      "electricalConductivity": "Tungsten has high electrical conductivity and is therefore frequently used in electrical applications, such as in incandescent lamp filaments, electrodes, and the electronics industry.",
+      "lastText": "Due to its unique properties, tungsten is used in a variety of industries, including metal processing, the electronics industry, the chemical industry, and aerospace."
     }
+    
   }
 }

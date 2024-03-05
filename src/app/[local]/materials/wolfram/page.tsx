@@ -1,39 +1,21 @@
 import React from "react";
+import { useTranslations } from "next-intl";
 
 function Wolfram() {
+  const t = useTranslations("propertys");
   return (
     <div className="bio">
-    <h1 className="heading">Eigenschaften Wolfram</h1>
-    <p>
-      Wolfram ist ein chemisches Element mit dem Symbol W und der Ordnungszahl 74. Es ist ein Übergangsmetall und hat aufgrund seiner einzigartigen Eigenschaften eine Vielzahl von Anwendungen.
+    <h1 className="heading">{t("Wolfram.title")}</h1>
+    <p>{t("Wolfram.text")} <br />
       <br />
-      <br />
-      <ol>
-        <li>
-          <strong>. Hoher Schmelzpunkt:</strong> Wolfram hat einen der höchsten Schmelzpunkte aller Elemente bei etwa 3.422 Grad Celsius. Aufgrund dieser hohen Schmelztemperatur wird Wolfram häufig in Anwendungen verwendet, die extremen Temperaturen standhalten müssen, wie z. B. in Hochtemperaturöfen und in der Raumfahrttechnik.
-        </li>
-        <br />
-        <li>
-          <strong>. Hohe Dichte:</strong> Wolfram ist eines der dichtesten Metalle und hat eine hohe Dichte von etwa 19,3 Gramm pro Kubikzentimeter. Diese hohe Dichte macht Wolfram zu einem geeigneten Material für Anwendungen, bei denen hohe Massen oder Gewichte erforderlich sind, wie z. B. in Rüstungen und Munition.
-        </li>
-        <br />
-        <li>
-          <strong>. Chemische Beständigkeit:</strong> Wolfram ist chemisch sehr beständig und reagiert nur langsam mit Sauerstoff, Wasser und den meisten Säuren. Diese Beständigkeit macht Wolfram zu einem geeigneten Material für Anwendungen, bei denen Korrosion ein Problem darstellen würde, wie z. B. in chemischen Anlagen und in der Elektroindustrie.
-        </li>
-        <br />
-        <li>
-          <strong>. Hohe Zugfestigkeit:</strong> Wolfram ist ein sehr festes Metall mit einer hohen Zugfestigkeit. Es wird häufig in Legierungen verwendet, um die Festigkeit und Härte von Materialien zu verbessern, wie z. B. in Werkzeugen und Hochleistungskomponenten.
-        </li>
-        <br />
-        <li>
-          <strong>. Elektrische Leitfähigkeit:</strong> Wolfram hat eine hohe elektrische Leitfähigkeit und wird daher häufig in elektrischen Anwendungen eingesetzt, wie z. B. in Glühlampenfilamenten, Elektroden und in der Elektronikindustrie.
-        </li>
-        <br />
-      </ol>
-      Aufgrund seiner einzigartigen Eigenschaften wird Wolfram in einer Vielzahl von Branchen eingesetzt, darunter die Metallverarbeitung, die Elektronikindustrie, die Chemieindustrie und die Raumfahrt.
-    </p>
+      <strong>{t("Wolfram.strong1")}</strong> {t("Wolfram.highMeltingPoint")} <br /> <br />
+      <strong>{t("Wolfram.strong2")}</strong> {t("Wolfram.highDensity")} <br /> <br />
+      <strong>{t("Wolfram.strong3")}</strong> {t("Wolfram.chemicalResistance")} <br /> <br />
+      <strong>{t("Wolfram.strong4")}</strong> {t("Wolfram.highTensileStrength")} <br /> <br />
+      <strong>{t("Wolfram.strong5")}</strong> {t("Wolfram.electricalConductivity")} <br /> <br />
+      <span>{t("Wolfram.lastText")}</span>
+      </p>
   </div>
-  
   );
 }
 
