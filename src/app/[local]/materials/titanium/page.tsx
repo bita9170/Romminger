@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-function TitaniumPage() {
+const TitaniumPage = () => {
   const t = useTranslations("properties");
   return (
     <div className="bio">
