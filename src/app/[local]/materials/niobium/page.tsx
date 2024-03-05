@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 
 
 function NiobiumPage() {
-  const t = useTranslations("propertys");
+  const t = useTranslations("properties");
   return (
     <div className="bio">
     <h1 className="heading">{t("Niobium.title")}</h1>

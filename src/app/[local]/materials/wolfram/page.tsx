@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 function Wolfram() {
-  const t = useTranslations("propertys");
+  const t = useTranslations("properties");
   return (
     <div className="bio">
     <h1 className="heading">{t("Wolfram.title")}</h1>

@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 const Molybdenumpage = () => {
-  const t = useTranslations("propertys");
+  const t = useTranslations("properties");
 
   return (
     <div className="bio">

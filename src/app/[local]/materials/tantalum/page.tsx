@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 const TantalumPage = () => {
-  const t = useTranslations("propertys");
+  const t = useTranslations("properties");
   return (
     <div className="bio">
       <h1 className="heading">{t("Tantalum.title")}</h1>
