@@ -1,6 +1,6 @@
 "use client";
 
-import { useParams, useRouter } from "next/navigation";
+import { useParams, useRouter, usePathname } from "next/navigation";
 import React from "react";
 import {
   Select,
@@ -19,10 +19,12 @@ import Image from "next/image";
 const Language = () => {
   const { local } = useParams<{ local: string }>();
 
+  const pathname = usePathname();
+  const cuttentPath = pathname.replace(/^\/[a-z]{2}/, "");
   const router = useRouter();
 
   const onSelectChange = (value: string) => {
-    router.replace(`/${value}`);
+    router.push(`/${value}${cuttentPath}`);
   };
 
   return (

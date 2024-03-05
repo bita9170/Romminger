@@ -6,7 +6,7 @@ export const languages = [
   },
   {
     id: "de",
-    name: "Deustch",
+    name: "Deutsch",
     flag: "/languages/German.png",
   },
 ];

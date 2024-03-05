@@ -1,20 +1,28 @@
 import React from "react";
+import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const AboutPage = () => {
+  const t = useTranslations("about");
+
   return (
     <div className="bio">
-      Der erfolgreiche Gründer von Firma Romminger Edelstahltechnik &
-      Lasertechnik bringt sich mit seinem herausragenden und jahrzehntelangen
-      Erfahrungsschatz in die Firma RR-Sondermetalle ein.
-      <br />
-      Wir liefern
-      verschiedenste Metalle mit dem gewissen Etwas. Halbzeuge aus Titan,
-      Molybdän und Tantal gehören unter anderem zu unserem
-      Standard-Lieferprogramm.
-      <br />
-      Sie können sich bei einer Zusammenarbeit
-      verbunden mit unserem Know-how auf die Erfüllung höchster
-      Qualitätsanforderungen freuen.
+      <span className="text-xl my-4 block">{t("AboutUs.headText")}</span>
+      <p dangerouslySetInnerHTML={{ __html: t("AboutUs.mainText") }}></p>
+      <div className="text-center my-4 font-bold">
+        <Link
+          href={`mailto: info@rr-sondermetalle.com`}
+          className="email-link text-gray-600 hover:text-gray-900"
+          style={{ fontWeight: "normal" }}
+          target="_blank"
+        >
+          info@rr-sondermetalle.com
+        </Link>
+      </div>
+      <p className="text-center font-bold ">
+        {t("AboutUs.lastText")} <br />
+        Hermann Hesse
+      </p>
     </div>
   );
 };
