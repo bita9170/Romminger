@@ -14,7 +14,7 @@ const CompanyItem = ({ company, lang }: { company: any; lang: any }) => {
         {company.email && (
           <Link
             href={`mailto:${company.email}`}
-            className="email-link"
+            className="email-link lowercase"
             style={{ fontWeight: "normal" }}
             target="_blank"
           >
