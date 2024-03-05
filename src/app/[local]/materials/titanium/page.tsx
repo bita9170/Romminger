@@ -9,17 +9,17 @@ const TitaniumPage = () => {
       <p>
         {t("Titanium.text")} <br />
         <br />
-        <strong>{t("Titanium.strong1")}</strong>
+        <strong>{t("Titanium.strong1")}</strong>{" "}
         {t("Titanium.strengthAndHardness")} <br /> <br />
-        <strong>{t("Titanium.strong2")}</strong>
+        <strong>{t("Titanium.strong2")}</strong>{" "}
         {t("Titanium.corrosionResistance")} <br /> <br />
-        <strong>{t("Titanium.strong3")}</strong> {t("Titanium.lowDensity")}
+        <strong>{t("Titanium.strong3")}</strong> {t("Titanium.lowDensity")}{" "}
         <br /> <br />
-        <strong>{t("Titanium.strong4")}</strong>
+        <strong>{t("Titanium.strong4")}</strong>{" "}
         {t("Titanium.biocompatibility")} <br /> <br />
-        <strong>{t("Titanium.strong5")}</strong> {t("Titanium.heatResistance")}
+        <strong>{t("Titanium.strong5")}</strong> {t("Titanium.heatResistance")}{" "}
         <br /> <br />
-        <strong>{t("Titanium.strong6")}</strong> {t("Titanium.conductivity")}
+        <strong>{t("Titanium.strong6")}</strong> {t("Titanium.conductivity")}{" "}
         <br /> <br />
         <span>{t("Titanium.lastText")}</span>
       </p>
