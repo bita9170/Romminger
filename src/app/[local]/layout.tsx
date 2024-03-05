@@ -23,7 +23,9 @@ export default function LocalLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="body-inner">
             <Header />
-            <main className="main-content pt-[130px]">{children}</main>
+            <main className="main-content pt-[130px] bg-white text-primary">
+              {children}
+            </main>
             <Footer />
           </div>
         </NextIntlClientProvider>
