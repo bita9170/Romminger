@@ -9,7 +9,7 @@ const AboutPage = () => {
     <div className="bio">
       <span className="text-xl my-4 block">{t("AboutUs.headText")}</span>
       <p dangerouslySetInnerHTML={{ __html: t("AboutUs.mainText") }}></p>
-      <div className="text-center my-4 font-bold">
+      <div className=" my-2 font-bold">
         <Link
           href={`mailto: info@rr-sondermetalle.com`}
           className="email-link text-gray-600 hover:text-gray-900"
