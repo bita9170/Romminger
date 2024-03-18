@@ -8,12 +8,11 @@ const AboutPage = () => {
   return (
     <div className="bio">
       <h1 className="text-3xl font-bold my-4 mb-10">RR-Sondermetalle</h1>
-      <span className="text-xl my-4 block">{t("AboutUs.headText")}</span>
       <p dangerouslySetInnerHTML={{ __html: t("AboutUs.mainText") }}></p>
       <div className=" my-2 font-bold">
         <Link
           href={`mailto: info@rr-sondermetalle.com`}
-          className="email-link text-gray-600 hover:text-gray-900"
+          className="email-link text-blue-900 hover:text-blue-700"
           style={{ fontWeight: "normal" }}
           target="_blank"
         >
