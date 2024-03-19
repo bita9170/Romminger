@@ -14,7 +14,7 @@ const Molybdenumpage = () => {
         <li><strong>{t("Molybdenum.strong3")}</strong> {t("Molybdenum.magneticProperties")}</li>  <br />
         <li><strong>{t("Molybdenum.strong4")}</strong> {t("Molybdenum.electricalConductivity")}</li>  <br />
         <li><strong>{t("Molybdenum.strong5")}</strong> {t("Molybdenum.corrosionResistance")}</li>  <br />
-        <li><strong>{t("Molybdenum.strong6")}</strong> {t("Molybdenum.meltingPoint")}</li>  <br />
+        <li><strong>{t("Molybdenum.strong6")}</strong> {t("Molybdenum.highMeltingTemperature")}</li> <br />
         <li><strong>{t("Molybdenum.strong7")}</strong> {t("Molybdenum.catalyticProperties")}</li> 
       </ul>
       </p>

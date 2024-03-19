@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
-const Footer = () => {
+const Footer = ({ company }: { company: any; lang: any }) => {
   const { lang } = useParams();
   return (
     <footer className="footer">
@@ -26,12 +26,17 @@ const Footer = () => {
               <i className="fa-solid fa-phone mr-2"></i>
               +49 (0)7051 8059030 <br />
               <i className="fa-solid fa-envelope mr-2"></i>
-              <a href="#">info@rr-sondermetalle.com</a>
+              <Link
+                href={`mailto:${company}`}
+                className="email-link lowercase"
+                style={{ fontWeight: "normal" }}
+                target="_blank"
+              >
+                info@rr-sondermetalle.com
+              </Link>
             </p>
           </div>
-            <p className="copyright ">
-              Copyright © 2024 - All right reserved
-            </p>
+          <p className="copyright ">Copyright © 2024 - All right reserved</p>
         </div>
       </div>
     </footer>
