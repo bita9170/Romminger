@@ -7,7 +7,7 @@ const Molybdenumpage = () => {
   return (
     <div className="bio">
       <h1 className="heading">{t("Molybdenum.title")}</h1>
-      <p>{t("Molybdenum.text")}<br /> <br />
+      <p>{t("Molybdenum.text")}<br /> <br /> </p>
       <ul className="list-disc">
         <li><strong>{t("Molybdenum.strong1")}</strong> {t("Molybdenum.physicalProperties")}</li><br />
         <li><strong>{t("Molybdenum.strong2")}</strong> {t("Molybdenum.chemicalProperties")}</li>  <br />
@@ -17,7 +17,7 @@ const Molybdenumpage = () => {
         <li><strong>{t("Molybdenum.strong6")}</strong> {t("Molybdenum.highMeltingTemperature")}</li> <br />
         <li><strong>{t("Molybdenum.strong7")}</strong> {t("Molybdenum.catalyticProperties")}</li> 
       </ul>
-      </p>
+      
     </div>
   );
 };

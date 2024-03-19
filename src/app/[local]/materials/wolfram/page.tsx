@@ -6,7 +6,7 @@ function Wolfram() {
   return (
     <div className="bio">
     <h1 className="heading">{t("Wolfram.title")}</h1>
-    <p>{t("Wolfram.text")} <br />
+    <p>{t("Wolfram.text")} <br /> </p>
       <br />
       <strong>{t("Wolfram.strong1")}</strong> {t("Wolfram.highMeltingPoint")} <br /> <br />
       <strong>{t("Wolfram.strong2")}</strong> {t("Wolfram.highDensity")} <br /> <br />
@@ -14,7 +14,7 @@ function Wolfram() {
       <strong>{t("Wolfram.strong4")}</strong> {t("Wolfram.highTensileStrength")} <br /> <br />
       <strong>{t("Wolfram.strong5")}</strong> {t("Wolfram.electricalConductivity")} <br /> <br />
       <span>{t("Wolfram.lastText")}</span>
-      </p>
+      
   </div>
   );
 }

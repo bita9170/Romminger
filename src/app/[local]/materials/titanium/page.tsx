@@ -8,7 +8,7 @@ const TitaniumPage = () => {
       <h1 className="heading">{t("Titanium.title")}</h1>
       <p>
         {t("Titanium.text")} <br />
-        <br />
+        <br /> </p>
         <strong>{t("Titanium.strong1")}</strong>{" "}
         {t("Titanium.strengthAndHardness")} <br /> <br />
         <strong>{t("Titanium.strong2")}</strong>{" "}
@@ -22,7 +22,7 @@ const TitaniumPage = () => {
         <strong>{t("Titanium.strong6")}</strong> {t("Titanium.conductivity")}{" "}
         <br /> <br />
         <span>{t("Titanium.lastText")}</span>
-      </p>
+      
     </div>
   );
 }
