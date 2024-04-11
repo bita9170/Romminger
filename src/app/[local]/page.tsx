@@ -40,7 +40,7 @@ const HomePageEng = ({ params }: any) => {
                 className="w-full"
               >
                 <CarouselContent>
-                  {Array.from({ length: 11 }).map((_, index) => (
+                  {Array.from({ length: 4 }).map((_, index) => (
                     <CarouselItem
                       key={index}
                       className="md:basis-1/2 lg:basis-1/4"
@@ -55,8 +55,8 @@ const HomePageEng = ({ params }: any) => {
                     </CarouselItem>
                   ))}
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                {/* <CarouselPrevious />
+                <CarouselNext /> */}
               </Carousel>
             </div>
           </div>
