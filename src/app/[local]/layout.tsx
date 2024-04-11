@@ -26,7 +26,7 @@ export default function LocalLayout({
             <main className="main-content pt-[130px] bg-white text-primary">
               {children}
             </main>
-            <Footer />
+            <Footer company={undefined} lang={undefined} />
           </div>
         </NextIntlClientProvider>
       </body>
