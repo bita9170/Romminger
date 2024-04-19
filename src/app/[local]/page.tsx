@@ -3,8 +3,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  // CarouselNext,
-  // CarouselPrevious,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import Link from "next/link";
@@ -57,8 +57,8 @@ const HomePageEng = ({ params }: any) => {
                     </CarouselItem>
                   ))}
                 </CarouselContent>
-                {/* <CarouselPrevious />
-                <CarouselNext /> */}
+                <CarouselPrevious className=" md:hidden" />
+                <CarouselNext className=" md:hidden"/>
               </Carousel>
             </div>
           </div>
