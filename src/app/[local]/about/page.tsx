@@ -1,7 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+<<<<<<< Updated upstream
 import { unstable_setRequestLocale } from "next-intl/server";
+=======
+import Image from "next/image";
+>>>>>>> Stashed changes
 
 const AboutPage = ({ params }: any) => {
   unstable_setRequestLocale(params.local);
@@ -20,9 +24,17 @@ const AboutPage = ({ params }: any) => {
           info@rr-sondermetalle.com
         </Link>
       </div>
+
       <p className="text-center font-bold ">
         {t("AboutUs.lastText")} <br />
         Hermann Hesse
+        <Image
+          src="/hermann-hesse.jpg"
+          alt="Hermann Hesse"
+          width={200}
+          height={150}
+          className="m-auto object-cover rounded-full mt-4"
+        />
       </p>
     </div>
   );
