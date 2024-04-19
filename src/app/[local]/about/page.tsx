@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
-const AboutPage = () => {
+const AboutPage = ({ params }: any) => {
+  unstable_setRequestLocale(params.local);
   const t = useTranslations("about");
-
   return (
     <div className="bio">
       <h1 className="text-3xl font-bold my-4 mb-10">RR-Sondermetalle</h1>

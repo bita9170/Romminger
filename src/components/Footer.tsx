@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 
 const Footer = ({ company }: { company: any; lang: any }) => {
   const { lang } = useParams();
+
   return (
     <footer className="footer">
       <div className="container">

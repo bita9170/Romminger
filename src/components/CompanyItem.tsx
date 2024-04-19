@@ -1,7 +1,10 @@
 import Link from "next/link";
 import React from "react";
+// import { unstable_setRequestLocale } from "next-intl/server";
 
 const CompanyItem = ({ company, lang }: { company: any; lang: any }) => {
+  // unstable_setRequestLocale(lang);
+
   return (
     <div className="company capitalize">
       <div className="title">
